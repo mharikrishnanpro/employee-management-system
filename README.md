@@ -25,7 +25,6 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application for managing
 - JWT (for authentication)
 - Bcrypt (for password hashing)
 - Multer (for file uploads)
-- Express Validator (for request validation)
 
 ## Prerequisites
 
@@ -37,7 +36,7 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application for managing
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/employee-management-system.git
+   git clone https://github.com/mharikrishnanpro/employee-management-system.git
    cd employee-management-system
    ```
 
@@ -59,7 +58,6 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application for managing
      PORT=5000
      MONGODB_URI=your_mongodb_connection_string
      JWT_SECRET=your_jwt_secret_key
-     NODE_ENV=development
      ```
    - Create a `.env` file in the `frontend` directory:
      ```
@@ -121,14 +119,6 @@ employee-management-system/
 ### Frontend
 - `npm run dev` - Start the Vite development server
 - `npm run build` - Build for production
-- `npm run preview` - Preview the production build
 
-## Environment Variables
 
-Create a `.env` file in the backend directory with the following variables:
-```
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-```
 
