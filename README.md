@@ -61,7 +61,7 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application for managing
      ```
    - Create a `.env` file in the `frontend` directory:
      ```
-     VITE_API_BASE_URL=http://localhost:5000/api
+     VITE_API_BASE_URL=http://your-backend-domain-or-localhost/api
      ```
 
 5. Start the development servers
